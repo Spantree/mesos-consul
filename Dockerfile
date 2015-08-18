@@ -1,6 +1,6 @@
 FROM buildpack-deps:trusty-curl
 
-MAINTAINER Chris Aubuchon <Chris.Aubuchon@gmail.com>
+MAINTAINER Sebastian Otaegui <feniix@gmail.com>
 
 COPY . /go/src/github.com/CiscoCloud/mesos-consul
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
